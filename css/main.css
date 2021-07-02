@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6{
     padding: 0;
 }
 
+.be-static{
+    position: static;
+}
+
 .bt{
     background: #3726F2;
     color: white;
@@ -77,12 +81,49 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .offer-cont__title{
+    width:474px;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: -1px;
+    line-height: 1.2em;
 }
 
 .offer-cont__text{
+    width: 474px;
+    font-size: 18px;
     margin: 30px 0 56px;
+    color: #333;
+    line-height: 1.6em;
 }
 
+.hero{
+    background: url('../image/Placeholder.png') no-repeat right top;
+    background-size: 80% 100%;
+    width: 60%;
+    height: 840px;
+    position: absolute;
+    right: 0;
+    top:142px;
+}
+
+.video{
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    display: block;
+    width: 40%;
+    height: 35%;
+    background: url(../image/Placeholder\ \(1\).jpg) no-repeat center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video::after{
+    content: '';
+    display: block;
+    background: url(../image/Play\ Button\ Primary.png);
+    width: 65px;
+    height: 65px;
+    
+}
