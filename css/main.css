@@ -7,12 +7,18 @@ button{
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     font-style: normal;
     font-weight: 700;
     color: #151515;
     margin: 0;
     padding: 0;
+}
+
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 
 .be-static{
@@ -46,6 +52,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header {
+    height: 1000px;
 }
 .nav {
     padding-top: 59px;
@@ -94,6 +101,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 30px 0 56px;
     color: #333;
     line-height: 1.6em;
+    font-weight: 400;
 }
 
 .hero{
@@ -117,7 +125,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .video::after{
@@ -127,4 +135,84 @@ h1, h2, h3, h4, h5, h6{
     width: 65px;
     height: 65px;
     
+}
+
+.problems{
+    padding: 137px;
+}
+
+.row_tetx1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.poster{
+    height: 564px;
+    width: 444px;
+}
+
+.about{
+    
+}
+
+.about_titile{
+    margin: 37px 0 30px;
+    font-size: 40px;
+}
+
+.about_text{
+    width: 444px;
+    font-weight: 400;
+    color: #333;
+}
+
+.about_author{
+    display: flex;
+    margin-top: 61px;
+}
+
+.about_info{
+    margin-left: 31px;
+}
+
+.about_name{
+    font-size: 22px;
+    margin: 6px 0 3px;
+}
+
+.about_dol{
+    font-size: 18px;
+    font-weight: 400;
+    color: #353535;
+}
+
+.section-title{
+    
+}
+
+.section-title__lable{
+    margin: 142px 0 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #ADADAD;
+}
+
+.section-title__heading{
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 50px;
+}
+
+.serv__list__left{
+    margin:214px 0 37px 0;
+}
+
+.serv__list__right{
+    margin-top: 214px;
+}
+
+.serv__item{
+    color: #8B8B8B;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
